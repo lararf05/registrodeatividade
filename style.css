@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 90px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    background-color: #8f7777;
+  
+}
+
+/* Estilo para o formulário */
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+/* Estilo para a lista de tarefas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+li.concluida {
+    text-decoration: line-through;
+    color: #888;
+}
+
+li.urgente {
+    border: 2px solid red;
+    background-color: #96545a;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #d9534f;
+}
+
+button:hover {
+    background-color: #c9302c;
+}

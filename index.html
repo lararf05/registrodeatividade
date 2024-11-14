@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Lista de Tarefas</h1>
+
+    <!-- Formulário de Tarefas -->
+    <form id="form-tarefa">
+        <label for="nome-tarefa">Nome da Tarefa</label>
+        <input type="text" id="nome-tarefa" required>
+
+        <label for="data-conclusao">Data de Conclusão</label>
+        <input type="date" id="data-conclusao" required>
+
+        <label for="prioridade">Prioridade</label>
+        <select id="prioridade">
+            <option value="alta">Alta</option>
+            <option value="media">Média</option>
+            <option value="baixa">Baixa</option>
+        </select>
+
+        <button type="submit">Adicionar Tarefa</button>
+    </form>
+
+    <!-- Botões de Filtro e Ordenação -->
+    <button id="btn-filtrar">Filtrar Concluídas</button>
+    <button id="btn-ordenar">Ordenar por Prioridade</button>
+
+    <!-- Lista de Tarefas -->
+    <ul id="lista-tarefas"></ul>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
